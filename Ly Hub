@@ -7,8 +7,8 @@ if game.PlaceId == 155615604 then
     local MainSection = Main:NewSection("Main")
     MainSection:NewDropdown("Give Gun", "Give the localplayer a gun", {"M9", "Remington 870", "AK-47"}, function(v)
         local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver[v].ITEMPICKUP
-        local Event = game:GetService("Wo
-            module["AutoFire"] = truerkspace").Remote.ItemHandler
+        local Event = game:GetService("Workspace")
+            module["AutoFire"] = ("truerkspace").Remote.ItemHandler
         Event:InvokeSever(A_1)
     end)
 
